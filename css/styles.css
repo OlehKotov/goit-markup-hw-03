@@ -107,6 +107,9 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:active,
@@ -121,6 +124,9 @@ ul {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-contacts-link:hover,
@@ -130,12 +136,6 @@ ul {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.header-menu-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header .container {
@@ -166,12 +166,12 @@ ul {
 }
 
 .hero .container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 48px;
-  flex-shrink: 0;
+  flex-shrink: 0; */
 }
 
 .hero-title {
@@ -182,6 +182,8 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -197,6 +199,8 @@ ul {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-button:focus,
